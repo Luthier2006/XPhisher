@@ -1,3 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ff0000&size=35&center=true&vCenter=true&width=1000&lines=Atenção!+⚠;Não+nos+responsabilizamos+pelos+riscos)](https://git.io/typing-svg)
+
 <h1>XPhisher</h1>
 
 Aviso importante: Este repositório contém material relacionado a técnicas de engenharia social e simulação de ataques. O conteúdo aqui publicado destina‑se exclusivamente a fins de pesquisa, educação e defesa. Não utilize nenhum dos artefatos, templates ou scripts contra terceiros sem autorização escrita e explícita. O proprietário do repositório e colaboradores não se responsabilizam por uso indevido.
