@@ -36,34 +36,36 @@ scripts/ — scripts de automação para ambiente de laboratório (apenas para c
 Antes de usar qualquer material deste repositório:
 
 <p>Autorização: </p>
-  obtenha autorização por escrito do proprietário do ambiente alvo (empresa, cliente, universidade). Documente escopo, duração e critérios de sucesso.
+
+• obtenha autorização por escrito do proprietário do ambiente alvo (empresa, cliente, universidade). Documente escopo, duração e critérios de sucesso.
 
 <p>Ambiente de teste: </p>
-execute exemplos apenas em ambientes isolados (máquinas virtuais, redes laboratoriais) sem conexão a sistemas de produção.
+
+• execute exemplos apenas em ambientes isolados (máquinas virtuais, redes laboratoriais) sem conexão a sistemas de produção.
 
 <p>Não colete credenciais reais: </p>
 
-configure landing pages educativas que NÃO solicitem ou armazenem senhas reais. Para medir comportamento, use contas de teste criadas especificamente para o exercício.
+• configure landing pages educativas que NÃO solicitem ou armazenem senhas reais. Para medir comportamento, use contas de teste criadas especificamente para o exercício.
 
 <p>Privacidade e conformidade: </p>
 
-siga leis locais e políticas internas (LGPD, GDPR ou legislação aplicável). Obtenha aprovação do jurídico/compliance quando apropriado.
+• siga leis locais e políticas internas (LGPD, GDPR ou legislação aplicável). Obtenha aprovação do jurídico/compliance quando apropriado.
 
 <p>Divulgação responsável: </p>
 
-ao publicar relatórios ou amostras, sanitize dados sensíveis e remova qualquer informação identificável.
+• ao publicar relatórios ou amostras, sanitize dados sensíveis e remova qualquer informação identificável.
 
-Instalação (ambiente de análise — apenas para fins educacionais)
+• Instalação (ambiente de análise — apenas para fins educacionais)
 
 Os passos abaixo descrevem como preparar um ambiente de análise seguro. Estes comandos não ativam, nem instruem a executar ataques.
 
-Crie uma máquina virtual isolada (snapshot) com um sistema operacional de sua escolha.
+ → Crie uma máquina virtual isolada (snapshot) com um sistema operacional de sua escolha.
 
-Instale as dependências necessárias para análise (interpretes, ferramentas de inspeção, navegadores em modo teste).
+ → Instale as dependências necessárias para análise (interpretes, ferramentas de inspeção, navegadores em modo teste).
 
-Sempre revise o conteúdo dos arquivos antes de executar qualquer script: leia o código, cheque hashes e confirme a procedência.
+ → Sempre revise o conteúdo dos arquivos antes de executar qualquer script: leia o código, cheque hashes e confirme a procedência.
 
-Recomendamos fortemente o uso de snapshots e a restauração inicial após qualquer execução de laboratório.
+ → Recomendamos fortemente o uso de snapshots e a restauração inicial após qualquer execução de laboratório.
 
 ------------------------------------------------------------------------
 
@@ -95,9 +97,9 @@ Este projeto é licenciado sob a GNU General Public License v3.0 (GPL‑3.0) —
 
 <h1 align="center">Contato</h1>
 
-Mantenedor: Luthier2006
-E‑mail: (adicione um e‑mail de contato aqui)
-GitHub: https://github.com/Luthier2006
+<p align="center">Mantenedor: Luthier2006</p>
+<p align="center">E‑mail: luthier1611@gmail.com</p>
+<p align="center">GitHub: https://github.com/Luthier2006</p>
 
 -------------------------------------------------------------------------------------
 
