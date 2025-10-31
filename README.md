@@ -1,108 +1,195 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ff0000&size=35&center=true&vCenter=true&width=1000&lines=Atenção!+⚠;Não+nos+responsabilizamos+pelos+riscos)](https://git.io/typing-svg)
 
-<h1 align="center">XPhisher</h1>
+<h1 align='center'>XPhisher</h1>
 
-<p>Aviso importante: </p>
-Este repositório contém material relacionado a técnicas de engenharia social e simulação de ataques. O conteúdo aqui publicado destina‑se exclusivamente a fins de pesquisa, educação e defesa. Não utilize nenhum dos artefatos, templates ou scripts contra terceiros sem autorização escrita e explícita. O proprietário do repositório e colaboradores não se responsabilizam por uso indevido.
+<h1 align='center'>Responsible use and recommendations</h1>
 
-------------------------------------------------------------------------
+Before using any material from this repository:
 
-<h1 align="center">Visão geral</h1>
+<p>Authorization: </p>
 
-XPhisher é um conjunto de artefatos, exemplos e análises voltado para o estudo de ataques de engenharia social (phishing) com foco em prevenção, detecção e educação. O objetivo principal é permitir que profissionais de segurança, instrutores e pesquisadores avaliem riscos, criem simulações autorizadas e treinem usuários de forma segura.
+• obtain written authorization from the owner of the target environment (company, client, university). Document scope, duration, and success criteria.
 
-Este repositório NÃO é um facilitador de crimes. Não contém instruções para coleta de credenciais reais nem orientações para executar ataques em ambientes de produção.
+<p>Test environment: </p>
 
-------------------------------------------------------------------------
+• run examples only in isolated environments (virtual machines, laboratory networks) without connection to production systems.
 
-<h1 align="center">Conteúdo do repositório</h1>
+<p>Do not collect real credentials: </p>
 
-O repositório organiza o material em pastas lógicas. Resumo das áreas principais:
+• set up educational landing pages that DO NOT request or store real passwords. To measure behavior, use test accounts created specifically for the exercise.
 
-docs/ — documentação, referências e artigos explicativos sobre técnicas, mitigação e regulamentação.
+<p>Privacy and compliance: </p>
 
-examples/ — exemplos inertes (capturas de tela, HTML sem formulários ativos, snippets para análise estática) utilizados em treinamentos e apresentações.
+• follow local laws and internal policies (LGPD, GDPR or applicable legislation). Obtain approval from legal/compliance when appropriate.
 
-research/ — análises, logs (sanitizados) e relatórios de campanhas simuladas realizadas com autorização.
+<p>Responsible disclosure: </p>
 
-tools/ — utilitários auxiliares seguros para gerar relatórios, produzir artefatos de teste (sempre inertes) e métricas. Não inclui ferramentas de ataque.
+• When publishing reports or samples, sanitize sensitive data and remove any identifiable information.
 
-scripts/ — scripts de automação para ambiente de laboratório (apenas para criar ambientes isolados e limpar dados de teste).
+• Installation (analysis environment — for educational purposes only)
 
-------------------------------------------------------------------------
+The steps below describe how to prepare a secure analysis environment. These commands do not activate or instruct you to execute attacks.
 
-<h1 align="center">Uso responsável e recomendações</h1>
+ → Create an isolated virtual machine (snapshot) with an operating system of your choice.
 
-Antes de usar qualquer material deste repositório:
+ → Install the necessary dependencies for analysis (interpreters, inspection tools, browsers in test mode).
 
-<p>Autorização: </p>
+ → Always review the content of the files before executing any script: read the code, check hashes and confirm the origin.
 
-• obtenha autorização por escrito do proprietário do ambiente alvo (empresa, cliente, universidade). Documente escopo, duração e critérios de sucesso.
-
-<p>Ambiente de teste: </p>
-
-• execute exemplos apenas em ambientes isolados (máquinas virtuais, redes laboratoriais) sem conexão a sistemas de produção.
-
-<p>Não colete credenciais reais: </p>
-
-• configure landing pages educativas que NÃO solicitem ou armazenem senhas reais. Para medir comportamento, use contas de teste criadas especificamente para o exercício.
-
-<p>Privacidade e conformidade: </p>
-
-• siga leis locais e políticas internas (LGPD, GDPR ou legislação aplicável). Obtenha aprovação do jurídico/compliance quando apropriado.
-
-<p>Divulgação responsável: </p>
-
-• ao publicar relatórios ou amostras, sanitize dados sensíveis e remova qualquer informação identificável.
-
-• Instalação (ambiente de análise — apenas para fins educacionais)
-
-Os passos abaixo descrevem como preparar um ambiente de análise seguro. Estes comandos não ativam, nem instruem a executar ataques.
-
- → Crie uma máquina virtual isolada (snapshot) com um sistema operacional de sua escolha.
-
- → Instale as dependências necessárias para análise (interpretes, ferramentas de inspeção, navegadores em modo teste).
-
- → Sempre revise o conteúdo dos arquivos antes de executar qualquer script: leia o código, cheque hashes e confirme a procedência.
-
- → Recomendamos fortemente o uso de snapshots e a restauração inicial após qualquer execução de laboratório.
+ → We strongly recommend using snapshots and initial restore after any lab run.
 
 ------------------------------------------------------------------------
 
-<h1 align="center">Boas práticas de contribuições</h1>
+<h1 align='center'>Good contribution practices</h1>
 
-Contribuições são bem‑vindas desde que sigam princípios éticos e legais. Antes de abrir PRs ou issues, leia e cumpra estas regras:
+Contributions are welcome as long as they follow ethical and legal principles. Before opening PRs or issues, read and comply with these rules:
 
-Submeta apenas código e material que tenham finalidades defensivas, educativas ou de pesquisa. Evite incluir artefatos que possam ser usados de forma operacional para ataques.
+Only submit code and material that has defensive, educational, or research purposes. Avoid including artifacts that can be used operationally for attacks.
 
-Forneça descrição clara do propósito e da justificativa educacional/research para qualquer material sensível.
+Provide clear description of the purpose and educational/research rationale for any sensitive material.
 
-Inclua testes, documentação e exemplos que demonstrem o uso seguro do material.
+Include tests, documentation, and examples that demonstrate the safe use of the material.
 
-Para dúvidas sobre aceitabilidade, abra uma issue descrevendo o caso antes de submeter código.
-
--------------------------------------------------------------------------------------
-
-<h1 align="center">Política de segurança</h1>
-
-Se você encontrar uma vulnerabilidade ou conteúdo sensível publicado inadvertidamente, por favor contate o mantenedor imediatamente e não publique detalhes públicos até que o problema seja resolvido. Use o canal de contato abaixo.
+For questions about acceptability, open an issue describing the case before submitting code.
 
 -------------------------------------------------------------------------------------
 
-<h1 align="center">Licença</h1>
+<h1 align='center'>Security policy</h1>
 
-Este projeto é licenciado sob a GNU General Public License v3.0 (GPL‑3.0) — veja o arquivo LICENSE para o texto completo.
-
--------------------------------------------------------------------------------------
-
-<h1 align="center">Contato</h1>
-
-<p align="center">Mantenedor: Luthier2006</p>
-<p align="center">E‑mail: luthier1611@gmail.com</p>
-<p align="center">GitHub: https://github.com/Luthier2006</p>
+If you find a vulnerability or sensitive content inadvertently posted, please contact the maintainer immediately and do not post details publicly until the issue is resolved. Use the contact channel below.
 
 -------------------------------------------------------------------------------------
 
-<h1 align="center">Agradecimentos</h1>
+<h1 align='center'>License</h1>
 
-Referências e materiais de apoio: OWASP, literatura acadêmica sobre engenharia social, plataformas de awareness (GoPhish) e documentação de práticas seguras.
+This project is licensed under the GNU General Public License v3.0 (GPL‑3.0) — see the LICENSE file for the full text.
+-------------------------------------------------------------------------------------
+
+### Features
+
+- Latest and updated login pages.
+- Beginners friendly
+- Multiple tunneling options
+  - Localhost
+  - Cloudflared
+  - LocalXpose
+- Mask URL support 
+- Docker support
+
+##
+
+### Installation
+
+- Just, Clone this repository -
+  ```
+  git clone --depth=1 https://github.com/htr-tech/zphisher.git
+  ```
+
+- Now go to cloned directory and run `zphisher.sh` -
+  ```
+  $ cd zphisher
+  $ bash zphisher.sh
+  ```
+
+- On first launch, It'll install the dependencies and that's it. ***Zphisher*** is installed.
+
+##
+
+### Installation (Termux)
+You can easily install zphisher in Termux by using tur-repo
+```
+$ pkg install tur-repo
+$ pkg install zphisher
+$ zphisher
+```
+### A Note : 
+***Termux discourages hacking*** .. So never discuss anything related to *zphisher* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
+
+##
+
+### Installation via ".deb" file
+
+- Download `.deb` files from the [**Latest Release**](https://github.com/htr-tech/zphisher/releases/latest)
+- If you are using ***termux*** then download the `*_termux.deb`
+
+- Install the `.deb` file by executing
+  ```
+  apt install <your path to deb file>
+  ```
+  Or
+  ```
+  $ dpkg -i <your path to deb file>
+  $ apt install -f
+  ```
+
+##
+
+### Run on Docker
+
+- Docker Image Mirror:
+  - **DockerHub** : 
+    ```
+    docker pull htrtech/zphisher
+    ```
+  - **GHCR** : 
+    ```
+    docker pull ghcr.io/htr-tech/zphisher:latest
+    ```
+
+- By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh)
+
+  ```
+  $ curl -LO https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh
+  $ bash run-docker.sh
+  ```
+- Temporary Container
+
+  ```
+  docker run --rm -ti htrtech/zphisher
+  ```
+  - Remember to mount the `auth` directory.
+
+##
+
+<details>
+  <summary><h3>Dependencies</h3></summary>
+
+<b>Zphisher</b> requires following programs to run properly - 
+- `git`
+- `curl`
+- `php`
+
+> All the dependencies will be installed automatically when you run **Zphisher** for the first time.
+</details>
+
+<details>
+  <summary><h3>Tested on</h3></summary>
+
+- **Ubuntu**
+- **Debian**
+- **Arch**
+- **Manjaro**
+- **Fedora**
+- **Termux**
+</details>
+
+##
+
+<h3 align="center"><i>:: Workflow ::</i></h3>
+<p align="center">
+<img src=".github/misc/workflow.gif"/>
+</p>
+
+------------------------------------------------------------------------------------
+
+<h1 align='center'>Contact</h1>
+
+<p align='center'>Maintainer: Luthier2006</p>
+<p align='center'>E‑mail: luthier1611@gmail.com</p>
+<p align='center'>GitHub: https://github.com/Luthier2006</p>
+
+-------------------------------------------------------------------------------------
+
+<h1 align='center'>Thanks</h1>
+
+References and supporting materials: OWASP, academic literature on social engineering, awareness platforms (GoPhish) and documentation of safe practices.
