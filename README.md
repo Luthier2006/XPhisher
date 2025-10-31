@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ff0000&size=35&center=true&vCenter=true&width=1000&lines=Atenção!+⚠;Não+nos+responsabilizamos+pelos+riscos)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ff0000&size=35&center=true&vCenter=true&width=1000&lines=Attention!+⚠;We+are+not+responsible+for+misuse.)](https://git.io/typing-svg)
 
 <h1 align='center'>XPhisher</h1>
 
